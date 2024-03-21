@@ -10,11 +10,21 @@ import modal from '../src/assets/Profile_Modal.jpg'
 import backend from '../src/assets/backend.jpg'
 import To_do_app from '../src/assets/To_do_app.jpg'
 import portfolio from '../src/assets/portfolio.jpg'
+import dashboard from '../src/assets/dashboard.png'
+
 
 const projects = [ 
-    
+
     {
         id:1,
+        title: "Dashboard",
+        skills: "React Js, Express Js, Mongodb",
+        image:dashboard,
+        repoLink:"https://github.com/Sanjana-108/visualisation-dashboard-frontend",
+        liveLink:"https://visualisation-dashboard-frontend.vercel.app/"
+    },
+    {
+        id:2,
         title: "Top Courses",
         skills: "React Js, Tailwind CSS",
         image:top_courses,
@@ -22,7 +32,7 @@ const projects = [
         liveLink:""
     },
     {
-        id:2,
+        id:3,
         title: "Shopping Cart",
         skills: "React redux, Tailwind CSS",
         image:shopapp,
@@ -30,7 +40,7 @@ const projects = [
         liveLink:""
     },
     {
-        id:3,
+        id:4,
         title: "Random Gif Generator",
         skills: "React Js, Tailwind CSS",
         image:gif,
@@ -38,7 +48,7 @@ const projects = [
         liveLink:""
     },
     {
-        id:4,
+        id:5,
         title: "Blog backened",
         skills: "Express, Node, Mongodb  ",
         image: backend,
@@ -46,7 +56,7 @@ const projects = [
         liveLink:""
     },
     {
-        id:5,
+        id:6,
         title: "Weather App",
         skills: "HTML, CSS, Javascript  ",
         image:Weather_App,
@@ -54,7 +64,7 @@ const projects = [
         liveLink:"https://sanjana-weatherapp.netlify.app"
     },
     {
-        id:6,
+        id:7,
         title: "StudyNotion - will be added soon",
         skills: "MERN Stack",
         image:studyNotion,
@@ -63,7 +73,7 @@ const projects = [
     },
    
     {
-        id:7,
+        id:8,
         title: "TO DO App",
         skills: "Express, Node, Mongodb ",
         image:To_do_app,
@@ -71,7 +81,7 @@ const projects = [
         liveLink:""
     },
     {
-        id:8,
+        id:9,
         title: "Profile Share Modal",
         skills: "Html, Tailwind CSS, JavaScript",
         image:modal,
@@ -80,7 +90,7 @@ const projects = [
     },
    
     {
-        id:9,
+        id:10,
         title: "Tic Tac Toe",
         skills: "Html, CSS, JavaScript",
         image:ticTacToe,
@@ -89,7 +99,7 @@ const projects = [
     },
   
    {
-        id:10,
+        id:11,
         title: "My Gallery",
         skills: "HTML, CSS",
         image:my_gallery,
@@ -97,13 +107,14 @@ const projects = [
         liveLink:"https://mygallery-a26ae9.netlify.app/"
     },
     {
-        id:11,
+        id:12,
         title: "Portfolio",
         skills: "HTML, CSS and JS",
         image:portfolio,
         repoLink:"https://github.com/Sanjana-108/Sanjana_Portfolio",
         liveLink:"https://github-portfolio.netlify.app/"
     },
+    
 ]
 
 export default  projects;
